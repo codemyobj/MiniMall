@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "购物街",
+  "usingComponents": {
+    "swiper": "/components/common/Swiper/Swiper"
+  }
 }
