@@ -142,7 +142,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _home = __webpack_require__(/*! @/service/home.js */ 37);var Swiper = function Swiper() {__webpack_require__.e(/*! require.ensure | components/common/Swiper/Swiper */ "components/common/Swiper/Swiper").then((function () {return resolve(__webpack_require__(/*! @/components/common/Swiper/Swiper.vue */ 39));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+var _home = __webpack_require__(/*! @/service/home.js */ 17);var Swiper = function Swiper() {__webpack_require__.e(/*! require.ensure | components/common/Swiper/Swiper */ "components/common/Swiper/Swiper").then((function () {return resolve(__webpack_require__(/*! @/components/common/Swiper/Swiper.vue */ 38));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var HomeRecommend = function HomeRecommend() {__webpack_require__.e(/*! require.ensure | pages/home/children/HomeRecommend */ "pages/home/children/HomeRecommend").then((function () {return resolve(__webpack_require__(/*! ./children/HomeRecommend.vue */ 47));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -154,7 +156,8 @@ var _home = __webpack_require__(/*! @/service/home.js */ 37);var Swiper = functi
 
   },
   components: {
-    Swiper: Swiper },
+    Swiper: Swiper,
+    HomeRecommend: HomeRecommend },
 
   onLoad: function onLoad(options) {var _this = this;
     (0, _home.getMultiData)().then(function (res) {
@@ -162,9 +165,6 @@ var _home = __webpack_require__(/*! @/service/home.js */ 37);var Swiper = functi
       var data = res.data.data;
       _this.banner = data.banner.list;
       _this.recommend = data.recommend.list;
-
-      console.log(_this.banner);
-      console.log(_this.recommend);
     });
   } };exports.default = _default;
 

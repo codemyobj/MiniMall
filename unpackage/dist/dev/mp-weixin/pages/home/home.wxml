@@ -1,1 +1,1 @@
-<view><swiper banner="{{banner}}"></swiper></view>
+<view><swiper banner="{{banner}}"></swiper><home-recommend vue-id="1da55560-1" recommend="{{recommend}}" bind:__l="__l"></home-recommend></view>

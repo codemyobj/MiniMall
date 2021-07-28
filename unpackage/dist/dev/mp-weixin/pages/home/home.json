@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "购物街",
   "usingComponents": {
-    "swiper": "/components/common/Swiper/Swiper"
+    "swiper": "/components/common/Swiper/Swiper",
+    "home-recommend": "/pages/home/children/HomeRecommend"
   }
 }
