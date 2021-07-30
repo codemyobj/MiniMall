@@ -2,6 +2,9 @@
   "navigationBarTitleText": "购物街",
   "usingComponents": {
     "swiper": "/components/common/Swiper/Swiper",
-    "home-recommend": "/pages/home/children/HomeRecommend"
+    "home-recommend": "/pages/home/children/HomeRecommend",
+    "feature-view": "/pages/home/children/featureView",
+    "tab-control": "/components/content/tabControl/tabControl",
+    "goods-item": "/components/content/goodsItem/goodsItem"
   }
 }

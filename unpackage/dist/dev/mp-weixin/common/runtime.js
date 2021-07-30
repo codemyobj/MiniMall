@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/common/Swiper/Swiper":1,"pages/home/children/HomeRecommend":1};
+/******/ 		var cssChunks = {"components/common/Swiper/Swiper":1,"components/content/tabControl/tabControl":1,"pages/home/children/HomeRecommend":1,"pages/home/children/featureView":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/common/Swiper/Swiper":"components/common/Swiper/Swiper","pages/home/children/HomeRecommend":"pages/home/children/HomeRecommend"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/common/Swiper/Swiper":"components/common/Swiper/Swiper","components/content/goodsItem/goodsItem":"components/content/goodsItem/goodsItem","components/content/tabControl/tabControl":"components/content/tabControl/tabControl","pages/home/children/HomeRecommend":"pages/home/children/HomeRecommend","pages/home/children/featureView":"pages/home/children/featureView"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
